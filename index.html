@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Delicious Cakes - 20 Cakes Menu</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Delicious Cakes</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="hero">
+            <div class="hero-text">
+                <h2>Indulge in the Best Cakes!</h2>
+                <p>Freshly baked, mouthwatering cakes for all your special moments. Taste the love in every bite!</p>
+                <a href="#shop" class="btn">Browse Our Cakes</a>
+            </div>
+        </div>
+    </section>      
+    <section id="shop">
+        <div class="shop-container">
+            <h2>Our Cakes</h2>
+            <div class="cakes-grid">
+                <!-- Cakes -->
+                <div class="cake-item">
+                    <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Chocolate Cake">
+                    <h3>Chocolate Cake</h3>
+                    <p>₹500</p>
+                    <button class="buy-now" onclick="buyNow('Chocolate Cake', 500)">Buy Now</button>
+                </div>
+                <div class="cake-item">
+                    <img src="https://images.unsplash.com/photo-1588195538326-c5b1e9f80a1b?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHZhbmlsbGElMjBjYWtlfGVufDB8fDB8fHww" alt="Vanilla Cake">
+                    <h3>Vanilla Cake</h3>
+                    <p>₹600</p>
+                    <button class="buy-now" onclick="buyNow('Vanilla Cake', 600)">Buy Now</button>
+                </div>
+                <div class="cake-item">
+                    <img src="https://static.vecteezy.com/system/resources/previews/037/350/148/non_2x/ai-generated-a-of-a-cake-with-strawberries-and-cream-free-photo.jpg" alt="Strawberry Cake">
+                    <h3>Strawberry Cake</h3>
+                    <p>₹500</p>
+                    <button class="buy-now" onclick="buyNow('Strawberry Cake', 500)">Buy Now</button>
+                </div>
+                <div class="cake-item">
+                    <img src="https://static.vecteezy.com/system/resources/previews/038/813/730/non_2x/ai-generated-a-towering-moist-red-velvet-cake-layered-with-creamy-cream-cheese-frosting-and-adorned-with-edible-roses-free-photo.jpeg" alt="Red Velvet Cake">
+                    <h3>Red Velvet Cake</h3>
+                    <p>₹600</p>
+                    <button class="buy-now" onclick="buyNow('Red Velvet Cake', 600)">Buy Now</button>
+                </div>
+                <div class="cake-item">
+                    <img src="https://static.vecteezy.com/system/resources/thumbnails/049/631/456/small_2x/delicious-lemon-cake-with-creamy-frosting-adorned-with-fresh-lemon-slices-and-a-vibrant-yellow-hue-for-a-mouthwatering-treat-photo.jpg" alt="Lemon Cake">
+                    <h3>Lemon Cake</h3>
+                    <p>₹500</p>
+                    <button class="buy-now" onclick="buyNow('Lemon Cake', 500)">Buy Now</button>
+                </div>
+                <div class="cake-item">
+                    <img src="https://c4.wallpaperflare.com/wallpaper/24/994/391/food-cake-nuts-carrot-wallpaper-preview.jpg" alt="Carrot Cake">
+                    <h3>Carrot Cake</h3>
+                    <p>₹600</p>
+                    <button class="buy-now" onclick="buyNow('Carrot Cake', 600)">Buy Now</button>
+                </div>
+                <div class="cake-item">
+                    <img src="https://images.unsplash.com/photo-1611497406092-4bc22c54b322?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y29mZmVlJTIwY2FrZXxlbnwwfHwwfHx8MA%3D%3D" alt="Coffee Cake">
+                    <h3>Coffee Cake</h3>
+                    <p>₹500</p>
+                    <button class="buy-now" onclick="buyNow('Coffee Cake', 500)">Buy Now</button>
+                </div>
+                <div class="cake-item">
+                    <img src="https://static.vecteezy.com/system/resources/thumbnails/032/487/721/small/tropical-delight-mousse-cake-with-mango-puree-and-cream-generative-ai-photo.jpg" alt="Mango Cake">
+                    <h3>Mango Cake</h3>
+                    <p>₹600</p>
+                    <button class="buy-now" onclick="buyNow('Mango Cake', 600)">Buy Now</button>
+                </div>
+                <div class="cake-item">
+                    <img src="https://static.vecteezy.com/system/resources/previews/041/407/480/non_2x/ai-generated-a-beautifully-decorated-banana-cake-backdrop-of-a-cozy-banana-cake-with-cinnamon-and-sugar-icing-environment-photo.jpeg" alt="Banana Cake">
+                    <h3>Banana Cake</h3>
+                    <p>₹500</p>
+                    <button class="buy-now" onclick="buyNow('Banana Cake', 500)">Buy Now</button>
+                </div>
+                <div class="cake-item">
+                    <img src="https://plus.unsplash.com/premium_photo-1667115135820-efc2393902a2?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGNvY29udXQlMjBjYWtlfGVufDB8fDB8fHww
+                    " alt="Coconut Cake">
+                    <h3>Coconut Cake</h3>
+                    <p>₹600</p>
+                    <button class="buy-now" onclick="buyNow('Coconut Cake', 600)">Buy Now</button>
+                </div>
+                <!-- 10 more cakes here (repeat the structure) -->
+                <div class="cake-item">
+                    <img src="https://img.freepik.com/premium-photo/delicious-pineapple-cake-freshly-baked-decorated-healthy-food-background_175994-93038.jpg" alt="Pineapple Cake">
+                    <h3>Pineapple Cake</h3>
+                    <p>₹500</p>
+                    <button class="buy-now" onclick="buyNow('Pineapple Cake', 500)">Buy Now</button>
+                </div>
+                <!-- Add 8 more cakes with similar structure -->
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="about-container">
+            <h2>About Us</h2>
+            <p>We specialize in crafting high-quality, fresh cakes for all occasions. Whether it's a birthday, wedding, or a treat for yourself, our cakes will delight your taste buds!</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="contact-container">
+            <h2>Contact Us</h2>
+            <p>Email us at: <a href="mailto:info@deliciouscakes.com">info@deliciouscakes.com</a></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Delicious Cakes. All rights reserved.</p>
+    </footer>
+
+    <!-- PayPal Button -->
+    <div id="paypal-button-container"></div>
+
+    <script src="https://www.paypal.com/sdk/js?client-id=YOUR_CLIENT_ID&currency=USD"></script>
+    <script src="script.js"></script>
+</body>
+</html>
